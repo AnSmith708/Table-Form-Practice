@@ -1,0 +1,49 @@
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  color: #151965;
+}
+
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  color: #2e279d;
+}
+
+table {
+  width: 100%;
+  background-color: #010038;
+  border-spacing: 10px;
+}
+
+table, th, tr {
+  border: 1px;
+  border-style: solid;
+  text-align: center;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px;
+  background-color: #293a80;
+  color: white;
+}
+
+td {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+th {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+}
+
+.SurveyForm {
+  font-family: 'Fira Sans', sans-serif;
+  color: #2e279d;
+  padding: 5% 30px;
+}
+
+.submitbtn {
+  padding: 30px 5px;
+}

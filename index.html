@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Practice</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Fira+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="heading">
+      <h1>Welcome To My Page</h1>
+      <h3>Here's A List Of My Favorite Fictional Guys In Media</h3>
+    </div>
+
+    <!-- Practicing making tables -->
+
+    <div class="Intro">
+
+      <table>
+        <tr>
+          <th colspan="4">Anime/Game</th>
+          <th colspan="6">Characters</th>
+          <th colspan="5">Age</th>
+          <th colspan="2">Likes</th>
+        </tr>
+        <tr>
+          <td colspan="4">One Piece</td>
+          <td colspan="6">Sanji</td>
+          <td colspan="5">20???</td>
+          <td colspan="2">🤍🤍🤍🤍🤍</td>
+        </tr>
+        <tr>
+          <td colspan="4">One Piece</td>
+          <td colspan="6">Zoro</td>
+          <td colspan="5">19???</td>
+          <td colspan="2">🤍🤍🤍🤍</td>
+        </tr>
+        <tr>
+          <td colspan="4">King Of Fighters</td>
+          <td colspan="6">Iori Yagami</td>
+          <td colspan="5">25</td>
+          <td colspan="2">🤍🤍🤍🤍🤍</td>
+        </tr>
+        <tr>
+          <td colspan="4">Fatal Fury</td>
+          <td colspan="6">Terry Bogard</td>
+          <td colspan="5">30???</td>
+          <td colspan="2">🤍🤍🤍🤍</td>
+        </tr>
+        <tr>
+          <td colspan="4">King Of Fighters</td>
+          <td colspan="6">K'</td>
+          <td colspan="5">24????</td>
+          <td colspan="2">🤍🤍🤍🤍🤍</td>
+        </tr>
+        <tr>
+          <td colspan="4">Samurai Shodown</td>
+          <td colspan="6">Ukyo Tachibana</td>
+          <td colspan="5">30???</td>
+          <td colspan="2">🤍🤍🤍🤍</td>
+        </tr>
+        <tr>
+          <td colspan="4">Samurai Shodown: Warrior's Rage</td>
+          <td colspan="6">Toma Kuki</td>
+          <td colspan="5">22</td>
+          <td colspan="2">🤍🤍🤍🤍🤍</td>
+        </tr>
+        <tr>
+          <td colspan="4">Beyblade</td>
+          <td colspan="6">Kai Hiwatari</td>
+          <td colspan="5">????</td>
+          <td colspan="2">🤍🤍🤍🤍🤍</td>
+        </tr>
+        <tr>
+          <td colspan="4">Beyblade</td>
+          <td colspan="6">Yuriy Ivanov</td>
+          <td colspan="5">????</td>
+          <td colspan="2">🤍🤍🤍🤍🤍</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Practicing making form -->
+
+    <div class="SurveyForm">
+      <form class="" action="index.html" method="post">
+        <p>Who is your favorite crush?</p>
+
+        <div class="selectionform">
+          <select name="Series">
+            <option value="blank" selected></option>
+            <option value="sanji">Sanji</option>
+            <option value="iori">Iori Yagami</option>
+            <option value="toma">Tohma Kuki</option>
+            <option value="kai">Kai Hiwatari</option>
+            <option value="yuriy">Yuriy Ivanov</option>
+            <option value="k">K'</option>
+            <option value="terry">Terry Bogard</option>
+            <option value="other">Other</option>
+          </select>
+
+          <br>
+
+          <p>If You Pick Other, Please Type In Your Response</p>
+          <input type="textarea">
+
+          <p>Please Enter Your Email For More News</p>
+          <input type="email" name="email" rows="1" cols="100">
+
+        </div>
+
+        <div class="submitbtn">
+          <input type="submit" onclick="alert('Thank You For Your Submission!')" value="Submit">
+          <input type="reset">
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+</body>
+
+</html>
